@@ -1,0 +1,206 @@
+:root {
+    --borderColor: #ddd;
+    --contentTitle: #444;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 100px;
+    padding-left: 650px;
+    background-color: var(--borderColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--contentTitle);
+}
+
+.custom-a{
+text-decoration: underline;
+}
+
+.marginTop30 {
+    margin-top: 30px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.mainContainer {
+    width: 794px;
+    min-height: 500px;
+    min-height: 1193px;
+    margin: 50 px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.500);
+    padding: 30px 0px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.nameSurname{
+    font-size: 24px;
+}
+
+.profileImgContainer {
+    width: 200px;
+    height: 200px;
+}
+
+.profileImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profileInfosContainer {
+    height: 100%;
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(229deg, rgba(88,86,86,1) 2%, rgba(65,74,77,1) 12%, rgba(28,62,74,1) 28%, rgba(3,44,57,1) 45%, rgba(14,138,162,1) 100%);
+    /*background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1)100%);*/
+    color: white;
+    margin-left: 20px;
+}
+.profileInfoText{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.leftContainer {
+    width: 200px;
+    min-height: 300px;
+}
+
+
+.contactContainer {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px 0px;
+}
+
+.contactContainer i {
+    color: #333;
+}
+
+.contactContainer a {
+    font-size: 12px;
+    color: #333;
+}
+
+#linkedin {
+    color: #0072b1;
+}
+
+#githup {
+    color: #171515;
+}
+
+.leftSectionTitle {
+    font-size: 16px;
+    margin: 20px 0px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skillBox {
+    background-color: #aaa;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.languagesContainer {
+    margin-bottom: 10px;
+
+}
+
+.languageTitle {
+    font-size: 16px;
+    color: #171515;
+    margin-bottom: 5px;
+}
+
+.languageDetail {
+    font-size: 16px;
+    color: #999;
+    padding-left: 5px;
+}
+
+/* CONTENT RİGHT */
+
+.rightContainer {
+    min-height: 300px;
+    flex: 1;
+    padding: 0px 20px;
+}
+
+.componentTitle {
+    font-size: 24px;
+    border-bottom: 1px solid var(--contentTitle);
+    color: var(--contentTitle);
+
+}
+
+.contentComponent {
+    border-left: 5px solid;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-color: #0072b1;
+
+}
+
+.componentItemTitle {
+    font-size: 18px;
+    color: var(--contentTitle);
+}
+
+.componentItemSubTitle {
+    font-size: 14px;
+    color: var(--contentTitle);
+}
+
+.componentItemInfo {
+    font-size: 12px;
+    color: var(--contentTitle);
+}
+
+.componentItemDescription {
+    font-size: 14px;
+    color: var(--contentTitle);
+}
+
+.contentUl{
+    padding-left: 30px;
+}
+
