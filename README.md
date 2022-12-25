@@ -4,7 +4,7 @@
 
 <h2>Proje Hakkında Detaylar </h2>
 
-Bu proje JavaScript öğrenimi için yapılmıştır.
+Dil desteği için kütüphane oluşturulacak ve Backend'e gönderilen isteklerin karşılanması hususunda kontroller yapılacaktır.
 
 
 
